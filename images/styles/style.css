@@ -26,7 +26,9 @@
 .header{
     background-image: url('../developer.png');
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top left,bottom right;
+    
+
 }
 
 /* nav styles */
@@ -74,3 +76,35 @@ nav li{
  .banner-profile-pic{
     width: 580px;
  }
+ .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #022136;
+ }
+ .section-description{
+    font-size: 18px;
+    color: #022136;
+ }
+ .secondary-bg{
+    background-color: #edf5f9;
+    
+}
+/* main styles */
+main{
+   max-width: 1140px; 
+   margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
