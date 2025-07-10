@@ -129,3 +129,44 @@ main{
     padding: 30px;
     border-radius: 5px;
 }
+.resume-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.experience-description, .experience-sub-title{
+    color: #525659;
+}
+.experience-sub-title{
+font-size: 17px;
+font-weight: 600;
+}
+.experience-title{
+    font-size: 22px;
+}
+.resume-down-cv{
+    margin-top: 50px;
+}
+footer{
+  padding:   130px 200px ;
+  display: flex;
+  gap: 100px;
+  
+}
+.footer-column{
+    width: 50%;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+.section-title{
+    
+}
